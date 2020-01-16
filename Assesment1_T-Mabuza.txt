@@ -1,0 +1,55 @@
+TASK 1
+1: ls //i see a list of files and folders in the current directory i'm working on
+2: pwd //pwd means print the current working directory, i see the current directory i'm working on
+3: mkdir workspace , cd workspace
+4: ls //The is currently nothing in workspace directory i just created
+5: touch README.md
+6: cp README.md CHANGELOG.md //It copies the README file and its contents to CHANGELOG
+
+
+TASK 2
+1: touch exercise.md 
+2: mv exercise.md tmp
+3: rm /home/recruit/tmp/exercise.md
+
+
+TASK 3
+1: touch umuzi.md recruits.md cohort.md //displaying contents of umuzi.md recruits.md cohort.md
+2: vim umuzi.md  //writing text to a file. Press ESC and :wq to save and quit the editor
+   vim recruits.md 
+   vim cohort.md 
+3: cat umuzi.md recruits.md cohort.md // displaying multiple files at once
+4: cat umuzi.md recruits.md cohort.md > sammury.md 
+5: echo"The End" >  sammury.md
+
+TASK 4
+1: locate umuzi //locating a file named umuzi
+2: locate umuzi > search_result.md //locating a file named umuzi and copinying the search result to search_result.md
+
+TASK 5 
+1: touch pad.md // creating a file called 'pad'
+2: cd Desktop   // changing directory to desktop
+   mkdir work   //creating a directory called 'work'
+3: cp /home/recruit/Documents/pad.md  pad_copy.md //copying pad.md using absolute path to a new file 'pad_copy.md'
+4: sudo updatedb // updating the database 
+5: cd .. 
+6: locate pad_copy
+
+TASK 6
+1: locate "*.pdf" //listing all files that has an extension 'pdf'
+2: locate "*.pdf" ~/file1 // finding all files with pdf extension and copying them to a directory
+3: find . -maxdepth 1 -newermt "2020-01-15" //finding files by their modification date
+
+TASK 7
+1: nano my_bio.md //creating a nano file called my_bio.md
+2: Ctrl X  //exiting nano text editor
+3: mkdir my_files  //creating my_files directory
+   mv my_bio.md my_files //moving my_bio.md file to my_fles folder
+=================================================================================================
+
+
+
+
+ 
+
+
